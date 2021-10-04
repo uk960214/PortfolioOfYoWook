@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/PortfolioOfYoWook/static/css/main.a617e044.chunk.css",
+    "main.js": "/PortfolioOfYoWook/static/js/main.edf64b45.chunk.js",
+    "main.js.map": "/PortfolioOfYoWook/static/js/main.edf64b45.chunk.js.map",
+    "runtime-main.js": "/PortfolioOfYoWook/static/js/runtime-main.dc6d6404.js",
+    "runtime-main.js.map": "/PortfolioOfYoWook/static/js/runtime-main.dc6d6404.js.map",
+    "static/js/2.529f7612.chunk.js": "/PortfolioOfYoWook/static/js/2.529f7612.chunk.js",
+    "static/js/2.529f7612.chunk.js.map": "/PortfolioOfYoWook/static/js/2.529f7612.chunk.js.map",
+    "static/js/3.449a1885.chunk.js": "/PortfolioOfYoWook/static/js/3.449a1885.chunk.js",
+    "static/js/3.449a1885.chunk.js.map": "/PortfolioOfYoWook/static/js/3.449a1885.chunk.js.map",
+    "index.html": "/PortfolioOfYoWook/index.html",
+    "static/css/main.a617e044.chunk.css.map": "/PortfolioOfYoWook/static/css/main.a617e044.chunk.css.map",
+    "static/js/2.529f7612.chunk.js.LICENSE.txt": "/PortfolioOfYoWook/static/js/2.529f7612.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/PortfolioOfYoWook/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dc6d6404.js",
+    "static/js/2.529f7612.chunk.js",
+    "static/css/main.a617e044.chunk.css",
+    "static/js/main.edf64b45.chunk.js"
+  ]
+}
