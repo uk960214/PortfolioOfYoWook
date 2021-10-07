@@ -1,7 +1,8 @@
-import "./App.css";
-
 import { useState } from "react";
-import MainContent from "./Containers/MainContent";
+import GlobalStyle from "./styles/globalStyle";
+import MainContent from "./Containers/MainContent/MainContent";
+import { Title } from "./App.elements";
+import Navbar from "./Containers/Navbar/Navbar";
 
 function App() {
   const [width, setWidth] = useState(80);
@@ -18,17 +19,10 @@ function App() {
 
   return (
     <>
-      <h1>Portfolio of Yo Wook Kim</h1>
-      <nav>
-        <ul>
-          <li>About Me</li>
-          <li>Projects</li>
-          <li>Tech Profile</li>
-          <li>Contact</li>
-        </ul>
-      </nav>
+      <GlobalStyle />
+      <Title>Portfolio of Yo Wook Kim</Title>
+      <Navbar />
       <MainContent index={index} width={width} closeOpen={closeOpen} />
-      <button onClick={increment}>count</button>
     </>
   );
 }
