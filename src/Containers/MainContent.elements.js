@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  margin: 10vh auto;
+  margin: 10vh 10vw;
   ${(props) => `width: ${props.w}vw`};
   height: 60vh;
   transform: skew(-10deg);
@@ -10,20 +10,12 @@ export const Container = styled.div`
 
   transition: 0.3s ease-in-out;
   overflow: hidden;
+  position: relative;
 
-  display: flex;
-  justify-content: center;
-
-  div {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  & > * {
     transform: skew(10deg);
-    width: 40vw;
+    left: 15vw;
+    width: 50vw;
     position: absolute;
-  }
-
-  img {
-    width: 100%;
   }
 `;

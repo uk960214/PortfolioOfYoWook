@@ -1,14 +1,21 @@
 import "./App.css";
-import { Container } from "./App.elements";
 
 import { useState } from "react";
-import sample from "./img1.PNG";
+import MainContent from "./Containers/MainContent";
 
 function App() {
   const [width, setWidth] = useState(80);
+  const [index, setIndex] = useState(1);
+
   const closeOpen = () => {
-    setWidth(width === 80 ? 0 : 80);
+    setWidth(0);
+    setTimeout(() => setWidth(80), 500);
   };
+
+  const increment = () => {
+    setTimeout(() => setIndex(index + 1), 500);
+  };
+
   return (
     <>
       <h1>Portfolio of Yo Wook Kim</h1>
@@ -20,18 +27,8 @@ function App() {
           <li>Contact</li>
         </ul>
       </nav>
-      <Container w={width}>
-        <div>
-          <img src={sample} alt="preview" />
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis,
-            illum. Et voluptatum suscipit quod. Impedit debitis culpa sed
-            cupiditate nesciunt temporibus sequi laudantium neque quia
-            distinctio, et aspernatur illum? Esse.
-          </p>
-        </div>
-      </Container>
-      <button onClick={closeOpen}>close</button>
+      <MainContent index={index} width={width} closeOpen={closeOpen} />
+      <button onClick={increment}>count</button>
     </>
   );
 }
