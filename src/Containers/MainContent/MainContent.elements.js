@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  margin: 4vh 10vw;
+  margin: 5vh 10vw;
   ${(props) => `width: ${props.w}vw`};
   height: 70vh;
   transform: skew(-10deg);
@@ -21,8 +21,8 @@ export const ContentWrapper = styled.div`
 `;
 
 export const ContentImage = styled.img`
-  width: 100%;
-  margin-bottom: 5vh;
+  width: 90%;
+  margin: 3vh 5% 5vh 5%;
   box-shadow: 1px 1px 4px 4px #00000033;
   -webkit-box-reflect: below 1vh
     linear-gradient(to bottom, transparent 90%, black);

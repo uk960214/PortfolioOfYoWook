@@ -3,6 +3,7 @@ import GlobalStyle from "./styles/globalStyle";
 import MainContent from "./Containers/MainContent/MainContent";
 import { Title } from "./App.elements";
 import Navbar from "./Containers/Navbar/Navbar";
+import InfoSection from "./Containers/InfoSection/InfoSection";
 
 function App() {
   const [width, setWidth] = useState(80);
@@ -21,6 +22,7 @@ function App() {
     <>
       <GlobalStyle />
       <Title>Portfolio of Yo Wook Kim</Title>
+      <InfoSection />
       <Navbar />
       <MainContent index={index} width={width} closeOpen={closeOpen} />
     </>

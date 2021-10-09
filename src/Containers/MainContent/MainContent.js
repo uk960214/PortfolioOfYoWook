@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import sample from "../../img1.PNG";
+import sample from "../../images/img1.PNG";
 import {
   Container,
   ContentDesc,
@@ -9,7 +9,7 @@ import {
   ContentWrapper,
 } from "./MainContent.elements";
 
-import github from "./GitHub-Mark.png";
+import github from "../../images/GithubLogo.png";
 
 const MainContent = ({ width, closeOpen, index }) => {
   useEffect(() => {
