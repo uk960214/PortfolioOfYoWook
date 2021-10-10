@@ -1,39 +1,20 @@
-import React, { useEffect } from "react";
-import sample from "../../images/img1.PNG";
-import {
-  Container,
-  ContentDesc,
-  ContentImage,
-  ContentStackWrapper,
-  ContentStack,
-  ContentWrapper,
-} from "./MainContent.elements";
+import React from "react";
+import Projects from "../../Components/Projects/Projects";
+import TechProfile from "../TechProfile/TechProfile";
+import background2 from "../../images/background2.jpg";
 
-import github from "../../images/GithubLogo.png";
+import { Container, ContentSection, MaskImg } from "./MainContent.elements";
 
-const MainContent = ({ width, closeOpen, index }) => {
-  useEffect(() => {
-    closeOpen();
-  }, [index]);
-
+const MainContent = ({ width, closeOpen }) => {
   return (
-    <Container w={width}>
-      <ContentWrapper>
-        <ContentImage src={sample} alt="preview" />
-        <ContentStackWrapper>
-          <ContentStack src={github} />
-          <ContentStack src={github} />
-          <ContentStack src={github} />
-        </ContentStackWrapper>
-        <ContentDesc>
-          {index} Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-          Officiis, illum. Et voluptatum suscipit quod. Impedit debitis culpa
-          sed cupiditate nesciunt temporibus sequi laudantium neque quia
-          distinctio, et aspernatur illum? Esse. Lorem ipsum dolor sit amet
-          consectetur, adipisicing elit. Aliquid, dolor?
-        </ContentDesc>
-      </ContentWrapper>
-    </Container>
+    <>
+      <Container w={width}>
+        <ContentSection>
+          {/* <Projects closeOpen={closeOpen} /> */}
+          <TechProfile closeOpen={closeOpen} />
+        </ContentSection>
+      </Container>
+    </>
   );
 };
 
