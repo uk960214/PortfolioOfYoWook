@@ -29,7 +29,8 @@ const MainContent = ({ width, closeOpen, index }) => {
           {index} Lorem ipsum, dolor sit amet consectetur adipisicing elit.
           Officiis, illum. Et voluptatum suscipit quod. Impedit debitis culpa
           sed cupiditate nesciunt temporibus sequi laudantium neque quia
-          distinctio, et aspernatur illum? Esse.
+          distinctio, et aspernatur illum? Esse. Lorem ipsum dolor sit amet
+          consectetur, adipisicing elit. Aliquid, dolor?
         </ContentDesc>
       </ContentWrapper>
     </Container>
