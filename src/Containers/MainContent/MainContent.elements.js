@@ -15,7 +15,7 @@ export const Container = styled.div`
 
 export const ContentSection = styled.section`
   transform: skew(10deg);
-  left: 15vw;
-  width: 50vw;
+  left: 10vw;
+  width: 60vw;
   position: absolute;
 `;

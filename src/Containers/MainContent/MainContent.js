@@ -1,4 +1,5 @@
 import React from "react";
+import About from "../../Components/About/About";
 import Contact from "../../Components/Contact/Contact";
 import Projects from "../../Components/Projects/Projects";
 import TechProfile from "../../Components/TechProfile/TechProfile";
@@ -12,7 +13,8 @@ const MainContent = ({ width, closeOpen }) => {
         <ContentSection>
           {/* <Projects closeOpen={closeOpen} /> */}
           {/* <TechProfile closeOpen={closeOpen} /> */}
-          <Contact />
+          {/* <Contact /> */}
+          <About />
         </ContentSection>
       </Container>
     </>

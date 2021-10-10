@@ -13,7 +13,7 @@ const GlobalStyle = createGlobalStyle`
 }
 
 body {
-  background: linear-gradient(0deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(${background3}) center center/cover;
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(${background4}) center center/cover;
   font-family: "Raleway", sans-serif;
 }
 `;
