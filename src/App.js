@@ -7,15 +7,10 @@ import InfoSection from "./Containers/InfoSection/InfoSection";
 
 function App() {
   const [width, setWidth] = useState(80);
-  const [index, setIndex] = useState(1);
 
   const closeOpen = () => {
     setWidth(0);
     setTimeout(() => setWidth(80), 500);
-  };
-
-  const increment = () => {
-    setTimeout(() => setIndex(index + 1), 500);
   };
 
   return (
@@ -24,7 +19,7 @@ function App() {
       <Title>Portfolio of Yo Wook Kim</Title>
       <InfoSection />
       <Navbar />
-      <MainContent index={index} width={width} closeOpen={closeOpen} />
+      <MainContent width={width} closeOpen={closeOpen} />
     </>
   );
 }
