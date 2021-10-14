@@ -11,9 +11,9 @@ const MainContent = ({ width, closeOpen }) => {
     <>
       <Container w={width}>
         <ContentSection>
-          {/* <Projects closeOpen={closeOpen} /> */}
-          {/* <TechProfile closeOpen={closeOpen} /> */}
-          {/* <Contact /> */}
+          <Projects closeOpen={closeOpen} />
+          <TechProfile closeOpen={closeOpen} />
+          <Contact />
           <About />
         </ContentSection>
       </Container>
