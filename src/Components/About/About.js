@@ -11,7 +11,7 @@ import {
 
 const About = () => {
   return (
-    <AboutContainer>
+    <AboutContainer id="about">
       <Profile src={profileImg} alt="profile" />
       <IntroductionWrapper>
         <IntroductionTitle>Curious, Ambitious, Passionate</IntroductionTitle>

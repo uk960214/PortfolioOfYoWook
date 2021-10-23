@@ -1,26 +1,19 @@
 import styled from "styled-components";
 
 export const InfoContainer = styled.section`
-  position: fixed;
-  right: 0;
-  top: 3vh;
-
   display: flex;
-  flex-direction: column;
-  align-items: flex-end;
+  justify-content: center;
 `;
 
 export const SocialLinksWrapper = styled.div`
-  width: 20vw;
+  width: 8vw;
 
-  padding: 2vh 3vw;
+  padding: 1vh 1vw;
 
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 3.5vw;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1vw;
   align-items: center;
-
-  background-color: #ffffff55;
 `;
 
 export const SocialLink = styled.a`
@@ -32,7 +25,7 @@ export const SocialLink = styled.a`
 `;
 
 export const ResumeButton = styled.button`
-  margin: 2vh 2vw 0 0;
+  margin: 2vh;
   width: 15vw;
   padding: 1vh 0;
 

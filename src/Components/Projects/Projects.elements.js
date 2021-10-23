@@ -1,13 +1,5 @@
 import styled from "styled-components";
 
-export const ContentImage = styled.img`
-  width: 70%;
-  margin: 3vh 15% 5vh 15%;
-  box-shadow: 1px 1px 4px 4px #00000033;
-  -webkit-box-reflect: below 1vh
-    linear-gradient(to bottom, transparent 90%, black);
-`;
-
 export const ContentStackWrapper = styled.div`
   display: flex;
   gap: 2vw;
@@ -25,7 +17,6 @@ export const ContentDesc = styled.p`
   font-weight: 300;
   height: 10vh;
   overflow-y: scroll;
-  position: relative;
   padding: 1vh 0;
 
   &::-webkit-scrollbar {

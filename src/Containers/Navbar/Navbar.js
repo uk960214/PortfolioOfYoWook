@@ -1,15 +1,20 @@
 import React from "react";
-import { NavLink, NavWrapper } from "./Navbar.elements";
+import { NavLink, NavContainer, NavWrapper, Title } from "./Navbar.elements";
+import InfoSection from "../InfoSection/InfoSection";
 
 const Navbar = () => {
   return (
     <>
-      <NavWrapper>
-        <NavLink>About Me</NavLink>
-        <NavLink>Projects</NavLink>
-        <NavLink>Tech Profile</NavLink>
-        <NavLink>Contact</NavLink>
-      </NavWrapper>
+      <NavContainer>
+        <Title>Yo Wook's Portfolio</Title>
+
+        <NavWrapper>
+          <NavLink href="#projects">Projects</NavLink>
+          <NavLink href="#about">About Me</NavLink>
+          <NavLink href="#contact">Contact</NavLink>
+          <InfoSection />
+        </NavWrapper>
+      </NavContainer>
     </>
   );
 };

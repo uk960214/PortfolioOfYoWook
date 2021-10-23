@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { ContentDesc } from "./Projects.elements";
 import {
   ContentImage,
@@ -9,12 +9,9 @@ import {
 import github from "../../images/GithubLogo.png";
 import sample from "../../images/img1.PNG";
 
-const Projects = ({ closeOpen }) => {
-  useEffect(() => {
-    closeOpen();
-  }, []);
+const Projects = () => {
   return (
-    <>
+    <div id="projects">
       <ContentImage src={sample} alt="preview" />
       <ContentStackWrapper>
         <ContentStack src={github} />
@@ -28,7 +25,7 @@ const Projects = ({ closeOpen }) => {
         aspernatur illum? Esse. Lorem ipsum dolor sit amet consectetur,
         adipisicing elit. Aliquid, dolor?
       </ContentDesc>
-    </>
+    </div>
   );
 };
 

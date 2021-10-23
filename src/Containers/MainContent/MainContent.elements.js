@@ -1,21 +1,14 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  margin: 5vh 10vw;
-  ${(props) => `width: ${props.w}vw`};
-  height: 70vh;
-  transform: skew(-10deg);
-  border-right: 1px solid #444444;
-  border-left: 1px solid #444444;
+  margin: 5vh auto;
+  width: 75vw;
 
-  transition: 0.3s ease-in-out;
-  overflow: hidden;
-  position: relative;
-`;
+  & > * {
+    margin: 10vh auto;
+  }
 
-export const ContentSection = styled.section`
-  transform: skew(10deg);
-  left: 10vw;
-  width: 60vw;
-  position: absolute;
+  & > *:first-child {
+    margin-top: 0;
+  }
 `;

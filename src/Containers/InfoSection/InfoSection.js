@@ -8,7 +8,6 @@ import {
 
 import github from "../../images/GithubLogo.png";
 import linkedIn from "../../images/LiLogo.png";
-import instagram from "../../images/InstaLogo.png";
 
 const InfoSection = () => {
   return (
@@ -23,12 +22,6 @@ const InfoSection = () => {
             target="_blank"
           >
             <img src={linkedIn} alt="linkedIn" />
-          </SocialLink>
-          <SocialLink
-            href="https://www.instagram.com/valenti700/"
-            target="_blank"
-          >
-            <img src={instagram} alt="instagram" />
           </SocialLink>
         </SocialLinksWrapper>
         <ResumeButton>Download Resume</ResumeButton>

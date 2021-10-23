@@ -14,7 +14,9 @@ const GlobalStyle = createGlobalStyle`
 
 body {
   background: linear-gradient(0deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(${background4}) center center/cover;
+  background-attachment: fixed;
   font-family: "Raleway", sans-serif;
+  scroll-behavior: smooth;
 }
 `;
 
@@ -24,8 +26,6 @@ export const ContentImage = styled.img`
   width: 70%;
   margin: 3vh 15% 5vh 15%;
   box-shadow: 1px 1px 4px 4px #00000033;
-  -webkit-box-reflect: below 1vh
-    linear-gradient(to bottom, transparent 90%, black);
 `;
 
 export const ContentStackWrapper = styled.div`
