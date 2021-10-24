@@ -10,8 +10,8 @@ const MainContent = () => {
     <>
       <Container>
         <Projects />
-        <Contact />
         <About />
+        <Contact />
       </Container>
     </>
   );

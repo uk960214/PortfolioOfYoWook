@@ -4,10 +4,12 @@ export const NavContainer = styled.div`
   text-align: center;
   padding: auto;
   padding-top: 2vh;
-  padding-bottom: 2vh;
+  padding-bottom: 1vh;
   position: sticky;
   top: 0;
   background-color: #ffffffaa;
+  ${(props) => `transform: translateY(${props.scroll === 0 ? 0 : "-45%"})`};
+  transition: transform 0.5s ease-out;
 `;
 
 export const NavWrapper = styled.div`
@@ -20,7 +22,7 @@ export const NavWrapper = styled.div`
 export const NavLink = styled.a`
   font-family: "Raleway", sans-serif;
   font-weight: 300;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   line-height: 2rem;
   color: #5f5f5f;
   cursor: pointer;
@@ -33,4 +35,5 @@ export const Title = styled.h1`
   text-align: center;
   color: #5f5f5f;
   font-size: 2.5rem;
+  transition: opacity, transform 0.5s ease-out;
 `;

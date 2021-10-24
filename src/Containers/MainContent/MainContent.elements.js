@@ -5,7 +5,7 @@ export const Container = styled.div`
   width: 75vw;
 
   & > * {
-    margin: 10vh auto;
+    margin: 15vh auto;
   }
 
   & > *:first-child {

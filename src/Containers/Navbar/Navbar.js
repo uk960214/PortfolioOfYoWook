@@ -2,11 +2,11 @@ import React from "react";
 import { NavLink, NavContainer, NavWrapper, Title } from "./Navbar.elements";
 import InfoSection from "../InfoSection/InfoSection";
 
-const Navbar = () => {
+const Navbar = ({ scroll }) => {
   return (
     <>
-      <NavContainer>
-        <Title>Yo Wook's Portfolio</Title>
+      <NavContainer scroll={scroll}>
+        <Title scroll={scroll}>Yo Wook's Portfolio</Title>
 
         <NavWrapper>
           <NavLink href="#projects">Projects</NavLink>
