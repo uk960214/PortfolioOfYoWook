@@ -2,15 +2,15 @@ import React from "react";
 import Cards from "../../Components/Cards/Cards";
 import { GridContainer } from "./CardGrid.element";
 
-const CardGrid = () => {
+const CardGrid = ({ openModal }) => {
   return (
-    <GridContainer>
-      <Cards />
-      <Cards />
-      <Cards />
-      <Cards />
-      <Cards />
-      <Cards />
+    <GridContainer id="projects">
+      <Cards openModal={openModal} />
+      <Cards openModal={openModal} />
+      <Cards openModal={openModal} />
+      <Cards openModal={openModal} />
+      <Cards openModal={openModal} />
+      <Cards openModal={openModal} />
     </GridContainer>
   );
 };

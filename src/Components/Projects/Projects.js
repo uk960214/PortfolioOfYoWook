@@ -1,5 +1,5 @@
 import React from "react";
-import { ContentDesc } from "./Projects.elements";
+import { ContentDesc, ProjectContainer } from "./Projects.elements";
 import {
   ContentImage,
   ContentStackWrapper,
@@ -11,7 +11,7 @@ import sample from "../../images/img1.PNG";
 
 const Projects = () => {
   return (
-    <div id="projects">
+    <ProjectContainer>
       <ContentImage src={sample} alt="preview" />
       <ContentStackWrapper>
         <ContentStack src={github} />
@@ -25,7 +25,7 @@ const Projects = () => {
         aspernatur illum? Esse. Lorem ipsum dolor sit amet consectetur,
         adipisicing elit. Aliquid, dolor?
       </ContentDesc>
-    </div>
+    </ProjectContainer>
   );
 };
 

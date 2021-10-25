@@ -10,6 +10,7 @@ export const NavContainer = styled.div`
   background-color: #ffffffaa;
   ${(props) => `transform: translateY(${props.scroll === 0 ? 0 : "-45%"})`};
   transition: transform 0.5s ease-out;
+  z-index: 5;
 `;
 
 export const NavWrapper = styled.div`

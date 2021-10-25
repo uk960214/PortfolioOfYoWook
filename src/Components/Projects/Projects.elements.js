@@ -1,5 +1,13 @@
 import styled from "styled-components";
 
+export const ProjectContainer = styled.div`
+  width: 80vw;
+  height: 80vh;
+  position: relative;
+  z-index: 5;
+  background-color: #ccc;
+`;
+
 export const ContentStackWrapper = styled.div`
   display: flex;
   gap: 2vw;

@@ -7,7 +7,6 @@ export const CardContainer = styled.div`
   width: 100%;
   border-radius: 5px;
   box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.25);
-  z-index: -1;
 `;
 
 export const CardCaption = styled.div`
