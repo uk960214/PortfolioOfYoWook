@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const ModalContainer = styled.div`
   position: absolute;
-  top: 0;
+  top: ${(props) => props.scroll}px;
   left: 0;
   width: 100%;
   height: 100%;
@@ -10,10 +10,5 @@ export const ModalContainer = styled.div`
   justify-content: center;
   align-items: center;
   background-color: #ffffff99;
-`;
-
-export const ModalBox = styled.div`
-  background-color: #000;
-  width: 50vw;
-  height: 50vh;
+  z-index: 5;
 `;

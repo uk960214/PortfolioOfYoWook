@@ -27,10 +27,10 @@ function App() {
 
   return (
     <>
-      <GlobalStyle />
+      <GlobalStyle isModalOpen={isModalOpen} />
       <Navbar scroll={scroll} />
       <MainContent openModal={openModal} />
-      {isModalOpen ? <Modal openModal={openModal} /> : ""}
+      {isModalOpen ? <Modal openModal={openModal} scroll={scroll} /> : ""}
     </>
   );
 }

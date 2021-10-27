@@ -1,10 +1,12 @@
 import React from "react";
-import { ContentDesc, ProjectContainer } from "./Projects.elements";
 import {
+  ContentDesc,
+  ContentTitle,
+  ProjectContainer,
   ContentImage,
   ContentStackWrapper,
   ContentStack,
-} from "../../styles/globalStyle";
+} from "./Projects.elements";
 
 import github from "../../images/GithubLogo.png";
 import sample from "../../images/img1.PNG";
@@ -12,6 +14,7 @@ import sample from "../../images/img1.PNG";
 const Projects = () => {
   return (
     <ProjectContainer>
+      <ContentTitle>Project Title</ContentTitle>
       <ContentImage src={sample} alt="preview" />
       <ContentStackWrapper>
         <ContentStack src={github} />

@@ -2,7 +2,7 @@ import React from "react";
 import Projects from "../Projects/Projects";
 import { ModalContainer } from "./Modal.elements";
 
-const Modal = ({ openModal }) => {
+const Modal = ({ openModal, scroll }) => {
   const onMaskClick = (e) => {
     if (e.target === e.currentTarget) {
       openModal();
@@ -10,7 +10,7 @@ const Modal = ({ openModal }) => {
   };
 
   return (
-    <ModalContainer onClick={onMaskClick}>
+    <ModalContainer onClick={onMaskClick} scroll={scroll}>
       <Projects />
     </ModalContainer>
   );
