@@ -1,4 +1,5 @@
 import React from "react";
+import { SectionTitle } from "../../styles/globalStyle";
 
 import {
   ContactContainer,
@@ -13,7 +14,7 @@ import {
 const Contact = () => {
   return (
     <ContactContainer id="contact">
-      <ContactInstruction>Contact Me!</ContactInstruction>
+      <SectionTitle>Contact Me!</SectionTitle>
       <EmailAddress>Mail Address: uk960214@gmail.com</EmailAddress>
       <ContactInstruction>
         or Send Me a Mail Through the Form Below

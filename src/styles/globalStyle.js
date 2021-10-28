@@ -23,3 +23,8 @@ body {
 `;
 
 export default GlobalStyle;
+
+export const SectionTitle = styled.h1`
+  text-align: center;
+  margin-bottom: 5vh;
+`;

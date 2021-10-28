@@ -1,17 +1,21 @@
 import React from "react";
 import Cards from "../../Components/Cards/Cards";
-import { GridContainer } from "./CardGrid.element";
+import { GridContainer, CardGridSection } from "./CardGrid.element";
+import { SectionTitle } from "../../styles/globalStyle";
 
 const CardGrid = ({ openModal }) => {
   return (
-    <GridContainer id="projects">
-      <Cards openModal={openModal} />
-      <Cards openModal={openModal} />
-      <Cards openModal={openModal} />
-      <Cards openModal={openModal} />
-      <Cards openModal={openModal} />
-      <Cards openModal={openModal} />
-    </GridContainer>
+    <CardGridSection>
+      <SectionTitle>Projects</SectionTitle>
+      <GridContainer id="projects">
+        <Cards openModal={openModal} />
+        <Cards openModal={openModal} />
+        <Cards openModal={openModal} />
+        <Cards openModal={openModal} />
+        <Cards openModal={openModal} />
+        <Cards openModal={openModal} />
+      </GridContainer>
+    </CardGridSection>
   );
 };
 

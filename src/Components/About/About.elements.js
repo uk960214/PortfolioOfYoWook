@@ -1,5 +1,7 @@
 import styled from "styled-components";
 
+export const AboutSection = styled.section``;
+
 export const AboutContainer = styled.div`
   display: flex;
   gap: 3vw;
