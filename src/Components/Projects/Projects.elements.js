@@ -12,14 +12,17 @@ export const ProjectContainer = styled.div`
 
   &::-webkit-scrollbar {
     width: 0.3rem;
+    z-index: 5;
   }
 
   &::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 6px rgba(255, 255, 255, 0.2);
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.2);
+    z-index: 5;
   }
 
   &::-webkit-scrollbar-thumb {
-    background-color: #ffffff99;
+    background-color: #00000099;
+    z-index: 5;
   }
 `;
 
