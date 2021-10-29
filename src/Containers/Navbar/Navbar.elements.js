@@ -2,18 +2,21 @@ import styled from "styled-components";
 
 export const NavContainer = styled.div`
   text-align: center;
-  padding: auto;
-  padding-top: 2vh;
-  padding-bottom: 1vh;
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+  height: 15vh;
+  padding: 1vh;
   position: sticky;
   top: 0;
   background-color: #ffffffaa;
-  ${(props) => `transform: translateY(${props.scroll === 0 ? 0 : "-45%"})`};
+  ${(props) => `transform: translateY(${props.scroll === 0 ? 0 : "-50%"})`};
   transition: transform 0.5s ease-out;
   z-index: 5;
 `;
 
 export const NavWrapper = styled.div`
+  height: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -31,6 +34,7 @@ export const NavLink = styled.a`
 `;
 
 export const Title = styled.h1`
+  height: 50%;
   font-family: "Maven Pro", sans-serif;
   letter-spacing: 0.2em;
   text-align: center;

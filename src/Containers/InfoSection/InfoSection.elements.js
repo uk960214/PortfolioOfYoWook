@@ -20,13 +20,13 @@ export const SocialLink = styled.a`
   display: flex;
   align-items: center;
   img {
-    width: 100%;
+    width: 70%;
   }
 `;
 
 export const ResumeButton = styled.button`
-  margin: 2vh;
-  width: 15vw;
+  width: 13vw;
+  height: 5vh;
   padding: 1vh 0;
 
   border-radius: 3px;
