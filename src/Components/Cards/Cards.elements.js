@@ -2,11 +2,19 @@ import styled from "styled-components";
 
 export const CardContainer = styled.div`
   position: relative;
-  background: url(${(props) => props.url}) center center/cover no-repeat;
   height: 40vh;
   width: 100%;
   border-radius: 5px;
   box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.25);
+`;
+
+export const CardImg = styled.img`
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(${(props) => props.url}) center center/cover no-repeat;
 `;
 
 export const CardCaption = styled.div`

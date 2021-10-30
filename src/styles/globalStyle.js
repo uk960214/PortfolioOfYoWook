@@ -37,3 +37,26 @@ export const SectionTitle = styled.h1`
   text-align: center;
   margin-bottom: 5vh;
 `;
+
+export const SlideWrapper = styled.div`
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  position: absolute;
+  top: 45%;
+  padding: 0 1vw;
+`;
+
+export const SlideButton = styled.div`
+  background-color: #eeeeee;
+  border: 1px #ccccccbb solid;
+  border-radius: 50%;
+  width: 2.5vw;
+  height: 2.5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  padding: 0;
+  cursor: pointer;
+`;

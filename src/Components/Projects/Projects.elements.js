@@ -30,10 +30,16 @@ export const ContentTitle = styled.h1`
   text-align: center;
 `;
 
-export const ContentImage = styled.img`
+export const ContentImageWrapper = styled.div`
+  position: relative;
   width: 70%;
   margin: 2% 15%;
   box-shadow: 1px 1px 4px 4px #00000033;
+`;
+
+export const ContentImage = styled.img`
+  width: 100%;
+  height: 100%;
 `;
 
 export const ContentStackWrapper = styled.div`
