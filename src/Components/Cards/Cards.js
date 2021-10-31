@@ -22,42 +22,38 @@ import sample4 from "../../images/img4.PNG";
 
 import { SlideWrapper, SlideButton } from "../../styles/globalStyle";
 
-const Cards = ({ openModal }) => {
-  const imgs = [sample1, sample2, sample3, sample4];
+const Cards = ({ openModal, data }) => {
   const [currImg, setImg] = useState(0);
 
   const changeImg = (direction) => {
     if (direction === "prev") {
-      const change = currImg === 0 ? imgs.length - 1 : currImg - 1;
+      const change = currImg === 0 ? data.imgs.length - 1 : currImg - 1;
       setImg(change);
     } else {
-      const change = currImg === imgs.length - 1 ? 0 : currImg + 1;
+      const change = currImg === data.imgs.length - 1 ? 0 : currImg + 1;
       setImg(change);
     }
   };
 
   return (
-    <CardContainer url={imgs[currImg]}>
-      <CardImg url={imgs[currImg]} />
+    <CardContainer>
+      <CardImg url={data.imgs[currImg]} />
       <CardCaption>
         <CardTopWrapper>
           <div>
-            <CardTitle>Project Title</CardTitle>
+            <CardTitle>{data.title}</CardTitle>
             <CardStackWrapper>
-              <CardStackIcon src={github} />
-              <CardStackIcon src={github} />
-              <CardStackIcon src={github} />
+              {data.stacks.map((x) => {
+                return <CardStackIcon src={x} />;
+              })}
             </CardStackWrapper>
           </div>
           <div>
-            <CardDate>September, 2021</CardDate>
+            <CardDate>{data.date}</CardDate>
             <ModalOpenButton onClick={openModal}>See Details</ModalOpenButton>
           </div>
         </CardTopWrapper>
-        <CardDesc>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt
-          inventore eaque aperiam accusantium.
-        </CardDesc>
+        <CardDesc>{data.short}</CardDesc>
       </CardCaption>
       <SlideWrapper>
         <SlideButton onClick={() => changeImg("prev")}>&lt;</SlideButton>
