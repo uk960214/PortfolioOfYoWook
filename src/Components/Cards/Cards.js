@@ -9,6 +9,7 @@ import {
   CardStackWrapper,
   CardStackIcon,
   CardDate,
+  ModalOpenButton,
   CardDesc,
 } from "./Cards.elements";
 
@@ -38,15 +39,20 @@ const Cards = ({ openModal }) => {
   return (
     <CardContainer url={imgs[currImg]}>
       <CardImg url={imgs[currImg]} />
-      <CardCaption onClick={openModal}>
+      <CardCaption>
         <CardTopWrapper>
-          <CardTitle>Project Title</CardTitle>
-          <CardStackWrapper>
-            <CardStackIcon src={github} />
-            <CardStackIcon src={github} />
-            <CardStackIcon src={github} />
-          </CardStackWrapper>
-          <CardDate>September, 2021</CardDate>
+          <div>
+            <CardTitle>Project Title</CardTitle>
+            <CardStackWrapper>
+              <CardStackIcon src={github} />
+              <CardStackIcon src={github} />
+              <CardStackIcon src={github} />
+            </CardStackWrapper>
+          </div>
+          <div>
+            <CardDate>September, 2021</CardDate>
+            <ModalOpenButton onClick={openModal}>See Details</ModalOpenButton>
+          </div>
         </CardTopWrapper>
         <CardDesc>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt

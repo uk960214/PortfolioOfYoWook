@@ -14,6 +14,7 @@ export const CardImg = styled.img`
   left: 0;
   width: 100%;
   height: 100%;
+  border-radius: 5px;
   background: url(${(props) => props.url}) center center/cover no-repeat;
 `;
 
@@ -36,9 +37,10 @@ export const CardTopWrapper = styled.section`
 export const CardTitle = styled.h1``;
 
 export const CardStackWrapper = styled.div`
-  width: 20%;
+  width: 35%;
   display: flex;
   gap: 10%;
+  margin-top: 1vh;
 `;
 
 export const CardStackIcon = styled.img`
@@ -46,5 +48,13 @@ export const CardStackIcon = styled.img`
 `;
 
 export const CardDate = styled.h4``;
+
+export const ModalOpenButton = styled.p`
+  margin-top: 1vh;
+  text-align: right;
+  color: #777777;
+  text-decoration: underline;
+  cursor: pointer;
+`;
 
 export const CardDesc = styled.p``;
