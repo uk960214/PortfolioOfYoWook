@@ -5,7 +5,6 @@ export const NavContainer = styled.div`
   display: flex;
   flex-direction: column;
   gap: 2vh;
-  height: 15vh;
   padding: 1vh;
   position: sticky;
   top: 0;
@@ -40,5 +39,4 @@ export const Title = styled.h1`
   text-align: center;
   color: #5f5f5f;
   font-size: 2.5rem;
-  transition: opacity, transform 0.5s ease-out;
 `;

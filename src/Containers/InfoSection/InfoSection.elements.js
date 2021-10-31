@@ -25,9 +25,7 @@ export const SocialLink = styled.a`
 `;
 
 export const ResumeButton = styled.button`
-  width: 13vw;
-  height: 5vh;
-  padding: 1vh 0;
+  padding: 1vh 2vw;
 
   border-radius: 3px;
   border: #ffffff 2px solid;

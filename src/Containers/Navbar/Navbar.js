@@ -6,7 +6,7 @@ const Navbar = ({ scroll }) => {
   return (
     <>
       <NavContainer scroll={scroll}>
-        <Title scroll={scroll}>Yo Wook's Portfolio</Title>
+        <Title>Yo Wook's Portfolio</Title>
 
         <NavWrapper>
           <NavLink href="#projects">Projects</NavLink>
