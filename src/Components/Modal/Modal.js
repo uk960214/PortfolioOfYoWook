@@ -2,7 +2,7 @@ import React from "react";
 import Projects from "../Projects/Projects";
 import { ModalContainer } from "./Modal.elements";
 
-const Modal = ({ openModal, scroll }) => {
+const Modal = ({ index, openModal, scroll }) => {
   const onMaskClick = (e) => {
     if (e.target === e.currentTarget) {
       openModal();
@@ -11,7 +11,7 @@ const Modal = ({ openModal, scroll }) => {
 
   return (
     <ModalContainer onClick={onMaskClick} scroll={scroll}>
-      <Projects />
+      <Projects dataIndex={index} />
     </ModalContainer>
   );
 };

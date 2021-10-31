@@ -6,9 +6,8 @@ import { SectionTitle } from "../../styles/globalStyle";
 import { sampleData } from "../../data/data";
 
 const CardGrid = ({ openModal }) => {
-  const CardList = [];
-  Object.keys(sampleData).map((i) => {
-    CardList.push(<Cards openModal={openModal} data={sampleData[i]} />);
+  const CardList = Object.keys(sampleData).map((i) => {
+    return <Cards openModal={openModal} data={sampleData[i]} dataIndex={i} />;
   });
 
   return (

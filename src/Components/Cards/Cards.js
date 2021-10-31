@@ -21,8 +21,9 @@ import sample3 from "../../images/img3.PNG";
 import sample4 from "../../images/img4.PNG";
 
 import { SlideWrapper, SlideButton } from "../../styles/globalStyle";
+import Modal from "../Modal/Modal";
 
-const Cards = ({ openModal, data }) => {
+const Cards = ({ openModal, data, dataIndex }) => {
   const [currImg, setImg] = useState(0);
 
   const changeImg = (direction) => {
@@ -50,7 +51,9 @@ const Cards = ({ openModal, data }) => {
           </div>
           <div>
             <CardDate>{data.date}</CardDate>
-            <ModalOpenButton onClick={openModal}>See Details</ModalOpenButton>
+            <ModalOpenButton data-index={dataIndex} onClick={openModal}>
+              See Details
+            </ModalOpenButton>
           </div>
         </CardTopWrapper>
         <CardDesc>{data.short}</CardDesc>
