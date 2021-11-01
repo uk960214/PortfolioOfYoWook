@@ -11,7 +11,7 @@ const Navbar = ({ scroll }) => {
         <NavWrapper>
           <NavLink href="#projects">Projects</NavLink>
           <NavLink href="#about">About Me</NavLink>
-          <NavLink href="#contact">Contact</NavLink>
+          {/* <NavLink href="#contact">Contact</NavLink> */}
           <InfoSection />
         </NavWrapper>
       </NavContainer>

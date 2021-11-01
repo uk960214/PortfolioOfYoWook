@@ -13,7 +13,7 @@ const MainContent = ({ openModal }) => {
         <Introduction />
         <CardGrid openModal={openModal} />
         <About />
-        <Contact />
+        {/* <Contact /> */}
       </Container>
     </>
   );
