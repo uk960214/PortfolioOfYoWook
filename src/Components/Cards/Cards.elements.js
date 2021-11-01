@@ -58,4 +58,10 @@ export const ModalOpenButton = styled.p`
   cursor: pointer;
 `;
 
+export const DemoLink = styled.a`
+  margin-top: 0.5vh;
+  color: #777777;
+  float: right;
+`;
+
 export const CardDesc = styled.p``;

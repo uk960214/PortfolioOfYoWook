@@ -10,6 +10,7 @@ import {
   CardStackIcon,
   CardDate,
   ModalOpenButton,
+  DemoLink,
   CardDesc,
 } from "./Cards.elements";
 
@@ -46,6 +47,9 @@ const Cards = ({ openModal, data, dataIndex }) => {
             <ModalOpenButton data-index={dataIndex} onClick={openModal}>
               See Details
             </ModalOpenButton>
+            <DemoLink href={data.demo} target="_blank">
+              To Demo
+            </DemoLink>
           </div>
         </CardTopWrapper>
         <CardDesc>{data.short}</CardDesc>

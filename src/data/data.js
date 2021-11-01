@@ -36,6 +36,8 @@ export const sampleData = {
     imgs: [ileum1, ileum2, ileum3, ileum4],
     stacks: [django, html, css, js],
     date: "August, 2021",
+    demo: "https://ileum.herokuapp.com/",
+    source: "https://github.com/2eum/musicdiary",
     short:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, accusantium.",
     long: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis, illum. Et voluptatum suscipit quod. Impedit debitis culpa sed cupiditate nesciunt temporibus sequi laudantium neque quia distinctio, et aspernatur illum? Esse. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid, dolor?",
@@ -45,6 +47,8 @@ export const sampleData = {
     imgs: [camp1, camp2, camp3, camp4, camp5],
     stacks: [react, html, css, js],
     date: "July, 2021",
+    demo: "https://uk960214.github.io/campaign4/",
+    source: "https://github.com/uk960214/campaign4",
     short:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, accusantium.",
     long: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis, illum. Et voluptatum suscipit quod. Impedit debitis culpa sed cupiditate nesciunt temporibus sequi laudantium neque quia distinctio, et aspernatur illum? Esse. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid, dolor?",
@@ -54,6 +58,8 @@ export const sampleData = {
     imgs: [ele1, ele2, ele3, ele4],
     stacks: [react, html, css, js],
     date: "September, 2021",
+    demo: "https://ms-elevators.github.io/elevator-portfolio/",
+    source: "https://github.com/ms-elevators/elevator-portfolio",
     short:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, accusantium.",
     long: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis, illum. Et voluptatum suscipit quod. Impedit debitis culpa sed cupiditate nesciunt temporibus sequi laudantium neque quia distinctio, et aspernatur illum? Esse. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid, dolor?",
@@ -63,6 +69,8 @@ export const sampleData = {
     imgs: [blog1, blog2, blog3, blog4],
     stacks: [github, hugo],
     date: "January, 2021",
+    demo: "https://github.com/uk960214/uk960214.github.io",
+    source: "https://uk960214.github.io/",
     short:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, accusantium.",
     long: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis, illum. Et voluptatum suscipit quod. Impedit debitis culpa sed cupiditate nesciunt temporibus sequi laudantium neque quia distinctio, et aspernatur illum? Esse. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid, dolor?",
@@ -72,6 +80,8 @@ export const sampleData = {
     imgs: [cal1, cal2],
     stacks: [react, html, css, js],
     date: "October, 2021",
+    demo: "https://github.com/uk960214/react-calendar-test",
+    source: "https://github.com/uk960214/react-calendar-test",
     short:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, accusantium.",
     long: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis, illum. Et voluptatum suscipit quod. Impedit debitis culpa sed cupiditate nesciunt temporibus sequi laudantium neque quia distinctio, et aspernatur illum? Esse. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid, dolor?",

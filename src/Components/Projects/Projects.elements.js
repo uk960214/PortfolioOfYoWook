@@ -61,3 +61,15 @@ export const ContentDesc = styled.p`
   font-weight: 300;
   padding: 1vh 0;
 `;
+
+export const LinksWrapper = styled.div`
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+  margin: 2vh 0;
+`;
+
+export const Links = styled.a`
+  font-size: 1.25rem;
+  color: #777777;
+`;

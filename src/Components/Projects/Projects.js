@@ -7,6 +7,8 @@ import {
   ContentImageWrapper,
   ContentStackWrapper,
   ContentStack,
+  LinksWrapper,
+  Links,
 } from "./Projects.elements";
 
 import { SlideButton, SlideWrapper } from "../../styles/globalStyle";
@@ -36,6 +38,23 @@ const Projects = ({ dataIndex }) => {
           <SlideButton onClick={() => changeImg("next")}>&gt;</SlideButton>
         </SlideWrapper>
       </ContentImageWrapper>
+
+      <LinksWrapper>
+        <Links
+          href={data.demo}
+          target="
+        _blank"
+        >
+          To Demo
+        </Links>
+        <Links
+          href={data.source}
+          target="
+        _blank"
+        >
+          To Source Code
+        </Links>
+      </LinksWrapper>
 
       <ContentStackWrapper>
         {data.stacks.map((x) => {
