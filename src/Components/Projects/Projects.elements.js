@@ -50,7 +50,7 @@ export const ContentStackWrapper = styled.div`
 `;
 
 export const ContentStack = styled.img`
-  width: 3%;
+  height: 5vh;
 `;
 
 export const ContentWrapper = styled.div``;

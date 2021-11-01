@@ -37,14 +37,15 @@ export const CardTopWrapper = styled.section`
 export const CardTitle = styled.h1``;
 
 export const CardStackWrapper = styled.div`
-  width: 35%;
+  width: 20%;
+  height: 100%;
   display: flex;
-  gap: 10%;
+  gap: 20%;
   margin-top: 1vh;
 `;
 
 export const CardStackIcon = styled.img`
-  width: 30%;
+  height: 3vh;
 `;
 
 export const CardDate = styled.h4``;
