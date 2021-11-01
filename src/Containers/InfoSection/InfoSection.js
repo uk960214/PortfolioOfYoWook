@@ -6,7 +6,7 @@ import {
   ResumeButton,
 } from "./InfoSection.elements";
 
-import github from "../../images/GithubLogo.png";
+import github from "../../images/stacks/GithubLogo.png";
 import linkedIn from "../../images/LiLogo.png";
 
 const InfoSection = () => {

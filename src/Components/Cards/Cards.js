@@ -13,15 +13,7 @@ import {
   CardDesc,
 } from "./Cards.elements";
 
-import github from "../../images/GithubLogo.png";
-
-import sample1 from "../../images/img1.PNG";
-import sample2 from "../../images/img2.PNG";
-import sample3 from "../../images/img3.PNG";
-import sample4 from "../../images/img4.PNG";
-
 import { SlideWrapper, SlideButton } from "../../styles/globalStyle";
-import Modal from "../Modal/Modal";
 
 const Cards = ({ openModal, data, dataIndex }) => {
   const [currImg, setImg] = useState(0);
