@@ -24,7 +24,7 @@ const InfoSection = () => {
             <img src={linkedIn} alt="linkedIn" />
           </SocialLink>
         </SocialLinksWrapper>
-        <ResumeButton>Download Resume</ResumeButton>
+        {/* <ResumeButton>Download Resume</ResumeButton> */}
       </InfoContainer>
     </>
   );

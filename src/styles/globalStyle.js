@@ -32,7 +32,9 @@ export default GlobalStyle;
 
 export const SectionTitle = styled.h1`
   text-align: center;
+  font-size: 2.5rem;
   margin-bottom: 5vh;
+  text-shadow: 3px 3px 1px #00000033;
 `;
 
 export const SlideWrapper = styled.div`
