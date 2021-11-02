@@ -32,17 +32,6 @@ import cal2 from "../images/prevImgs/cal2.PNG";
 
 export const sampleData = {
   0: {
-    title: "Ileum",
-    imgs: [ileum1, ileum2, ileum3, ileum4],
-    stacks: [django, html, css, js],
-    date: "August, 2021",
-    demo: "https://ileum.herokuapp.com/",
-    source: "https://github.com/2eum/musicdiary",
-    short:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, accusantium.",
-    long: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis, illum. Et voluptatum suscipit quod. Impedit debitis culpa sed cupiditate nesciunt temporibus sequi laudantium neque quia distinctio, et aspernatur illum? Esse. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid, dolor?",
-  },
-  1: {
     title: "Campaign for 4 Days-a-Week",
     imgs: [camp1, camp2, camp3, camp4, camp5],
     stacks: [react, html, css, js],
@@ -50,8 +39,18 @@ export const sampleData = {
     demo: "https://uk960214.github.io/campaign4/",
     source: "https://github.com/uk960214/campaign4",
     short:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, accusantium.",
-    long: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis, illum. Et voluptatum suscipit quod. Impedit debitis culpa sed cupiditate nesciunt temporibus sequi laudantium neque quia distinctio, et aspernatur illum? Esse. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid, dolor?",
+      "Campaign Signature Form with Dynamic Image to Share via Social Media",
+    long: "This Campaign app is a serverless react app that collects the user information to create a dynamic svg image that can be downloaded. As the influence of Social Media grows, this app allows the user to take advantage of it by creating a image that can be shared through social media, showing that this person supports something (ie. an initiative) and spread the word. This app uses the power of the svg image format, and edits the color of the energy ball, and add the name of the participant to the image dynamically. With connection to google speeadsheet, the user data can also be collected for further engagement. Finally, the participant can download the image as a png file, and the hashtags for tagging on social media is automatically copied to the clipboard.",
+  },
+  1: {
+    title: "Ileum",
+    imgs: [ileum1, ileum2, ileum3, ileum4],
+    stacks: [django, html, css, js],
+    date: "August, 2021",
+    demo: "https://ileum.herokuapp.com/",
+    source: "https://github.com/2eum/musicdiary",
+    short: "Diary App with Music Attached",
+    long: "Ileum is a web diary app with a unique feature that allows users to attach a music that matches with their diary entry. Using the Spotify API, users can search for a music of their liking that best describes the mood of their diary entry and record the music title, artist, cover art, and a 30 second preview of the music. This app is built with django, taking advantage of the many built in models such as the User model. My role in this project as the project manager and a frontend developer was to lead the team, be in charge of most of the DevOps including the role of PR manager, and at the same time build front end templates of the main page, list page, and login/register page.",
   },
   2: {
     title: "Elevator Portfolio Template",
@@ -60,9 +59,8 @@ export const sampleData = {
     date: "September, 2021",
     demo: "https://ms-elevators.github.io/elevator-portfolio/",
     source: "https://github.com/ms-elevators/elevator-portfolio",
-    short:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, accusantium.",
-    long: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis, illum. Et voluptatum suscipit quod. Impedit debitis culpa sed cupiditate nesciunt temporibus sequi laudantium neque quia distinctio, et aspernatur illum? Esse. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid, dolor?",
+    short: "Elevator Themed Portfolio Template",
+    long: "An Elevator Themed Portfolio Template. The door closes and open to reveal and hide the main content. If a floor button has been pressed, the floor changes, changing the content, floor information above the door, and the screen content. Using the async functions of JS, this app's animation replicates the motion of the real life elevator.",
   },
   3: {
     title: "Personal Dev Blog",
@@ -71,9 +69,8 @@ export const sampleData = {
     date: "January, 2021",
     demo: "https://github.com/uk960214/uk960214.github.io",
     source: "https://uk960214.github.io/",
-    short:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, accusantium.",
-    long: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis, illum. Et voluptatum suscipit quod. Impedit debitis culpa sed cupiditate nesciunt temporibus sequi laudantium neque quia distinctio, et aspernatur illum? Esse. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid, dolor?",
+    short: "Personal Dev Blog Built with Static Site Generator",
+    long: "Static Blog created with hugo and github pages.",
   },
   4: {
     title: "React Calendar Component",
@@ -82,8 +79,7 @@ export const sampleData = {
     date: "October, 2021",
     demo: "https://github.com/uk960214/react-calendar-test",
     source: "https://github.com/uk960214/react-calendar-test",
-    short:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, accusantium.",
-    long: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis, illum. Et voluptatum suscipit quod. Impedit debitis culpa sed cupiditate nesciunt temporibus sequi laudantium neque quia distinctio, et aspernatur illum? Esse. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid, dolor?",
+    short: "Calendar Component Built from Scratch",
+    long: "This is a reusable calendar component that automatically calculates the dates of a month, including the dates of previous and next months to fill the gap of the beginning and the end of the calendar. Content can also be inserted to each date block.",
   },
 };

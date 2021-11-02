@@ -60,6 +60,9 @@ export const ContentDesc = styled.p`
   font-family: "Raleway", sans-serif;
   font-weight: 300;
   padding: 1vh 0;
+  line-height: 1.5;
+  width: 60%;
+  margin: auto;
 `;
 
 export const LinksWrapper = styled.div`
