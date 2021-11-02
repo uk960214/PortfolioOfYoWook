@@ -18,21 +18,30 @@ const About = () => {
       <AboutContainer id="about">
         <Profile src={profileImg} alt="profile" />
         <IntroductionWrapper>
-          <IntroductionTitle>Curious, Ambitious, Passionate</IntroductionTitle>
+          <IntroductionTitle>Yo Wook Kim</IntroductionTitle>
           <IntroductionContent>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos
-            tempora officiis voluptatum nesciunt voluptas tenetur obcaecati
-            quaerat adipisci ea delectus eaque sequi illo laboriosam aperiam,
-            debitis ipsam suscipit, facilis, porro quod natus sunt repellat
-            perspiciatis quisquam laudantium? Maxime, deleniti repellendus
-            numquam pariatur optio repudiandae consequuntur, harum cumque
-            exercitationem facilis nostrum? Lorem ipsum, dolor sit amet
-            consectetur adipisicing elit. Maiores cumque esse blanditiis nulla
-            voluptatum architecto excepturi. Earum voluptates architecto vero
-            fugit itaque exercitationem ipsam sit. Nemo repellendus quasi, modi
-            libero asperiores quis molestias odio nulla praesentium fugiat.
-            Omnis unde magni eligendi, cumque illum voluptatum fuga. Aliquid
-            temporibus similique facere inventore?
+            I am a Frontend Developer located in Seoul, Republic of Korea. My
+            goal is to develop apps and services that is inclusive to digitally
+            marginalized people and bridge the gap between digital natives and
+            the digitally marginalized.
+          </IntroductionContent>
+          <IntroductionTitle>Curious</IntroductionTitle>
+          <IntroductionContent>
+            As a developer, my strong point is that I have infinite curiosity,
+            in everyday life and in technology. I am always interested in
+            hearing news and dig deeper into what catches my attention the most.
+            This helps me to keep an interest in the world around me, and look
+            for problems that might be solved with programming. Also I am also
+            very curious with new technology and techniques that is introduced
+            to the world of programming. With this curiosity I can stay alert
+            and adapt to the ever-changing environments of technology.
+          </IntroductionContent>
+          <IntroductionTitle>Ambitious</IntroductionTitle>
+          <IntroductionContent>
+            When it comes to programming, I am ambitious. Like I mentioned
+            above, I have huge interest in solving the real world problems with
+            programming. I am always up for challenges that come my way, in the
+            journey of reaching the solution I dream of and plan for.
           </IntroductionContent>
         </IntroductionWrapper>
       </AboutContainer>

@@ -9,15 +9,27 @@ export const AboutContainer = styled.div`
 
 export const Profile = styled.img`
   width: 25vw;
-  box-shadow: 3px 3px 3px #00000055;
+  box-shadow: 5px 5px 5px #00000055;
+  border-radius: 5px;
 `;
 
-export const IntroductionWrapper = styled.div``;
+export const IntroductionWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 80%;
+  margin: auto;
+`;
 
 export const IntroductionTitle = styled.h1`
-  margin-bottom: 3vh;
+  text-align: center;
+  margin: 1vh;
   font-family: "Satisfy", serif;
   font-size: 2rem;
 `;
 
-export const IntroductionContent = styled.p``;
+export const IntroductionContent = styled.p`
+  width: 80%;
+  margin: auto;
+  line-height: 1.5;
+`;
