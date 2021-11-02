@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/PortfolioOfYoWook/static/js/main.4134b581.chunk.js",
-    "main.js.map": "/PortfolioOfYoWook/static/js/main.4134b581.chunk.js.map",
+    "main.js": "/PortfolioOfYoWook/static/js/main.77472edb.chunk.js",
+    "main.js.map": "/PortfolioOfYoWook/static/js/main.77472edb.chunk.js.map",
     "runtime-main.js": "/PortfolioOfYoWook/static/js/runtime-main.e45f2afa.js",
     "runtime-main.js.map": "/PortfolioOfYoWook/static/js/runtime-main.e45f2afa.js.map",
     "static/js/2.69639dd5.chunk.js": "/PortfolioOfYoWook/static/js/2.69639dd5.chunk.js",
@@ -41,6 +41,6 @@
   "entrypoints": [
     "static/js/runtime-main.e45f2afa.js",
     "static/js/2.69639dd5.chunk.js",
-    "static/js/main.4134b581.chunk.js"
+    "static/js/main.77472edb.chunk.js"
   ]
 }
