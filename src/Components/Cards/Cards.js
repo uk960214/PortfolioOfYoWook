@@ -12,6 +12,8 @@ import {
   ModalOpenButton,
   DemoLink,
   CardDesc,
+  ButtonWrapper,
+  LeftWrapper,
 } from "./Cards.elements";
 
 import { SlideWrapper, SlideButton } from "../../styles/globalStyle";
@@ -34,22 +36,24 @@ const Cards = ({ openModal, data, dataIndex }) => {
       <CardImg url={data.imgs[currImg]} />
       <CardCaption>
         <CardTopWrapper>
-          <div>
+          <LeftWrapper>
             <CardTitle>{data.title}</CardTitle>
             <CardStackWrapper>
               {data.stacks.map((x) => {
                 return <CardStackIcon src={x} />;
               })}
             </CardStackWrapper>
-          </div>
+          </LeftWrapper>
           <div>
             <CardDate>{data.date}</CardDate>
-            <ModalOpenButton data-index={dataIndex} onClick={openModal}>
-              See Details
-            </ModalOpenButton>
-            <DemoLink href={data.demo} target="_blank">
-              To Demo
-            </DemoLink>
+            <ButtonWrapper>
+              <ModalOpenButton data-index={dataIndex} onClick={openModal}>
+                See Details
+              </ModalOpenButton>
+              <DemoLink href={data.demo} target="_blank">
+                To Demo
+              </DemoLink>
+            </ButtonWrapper>
           </div>
         </CardTopWrapper>
         <CardDesc>{data.short}</CardDesc>

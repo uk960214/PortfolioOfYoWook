@@ -34,7 +34,18 @@ export const CardTopWrapper = styled.section`
   margin-bottom: 2vh;
 `;
 
-export const CardTitle = styled.h1``;
+export const LeftWrapper = styled.div`
+  max-width: 50%;
+`;
+
+export const CardTitle = styled.p`
+  font-size: 1.3rem;
+  font-weight: 600;
+
+  @media screen and (max-width: 1919px) {
+    font-size: 1rem;
+  }
+`;
 
 export const CardStackWrapper = styled.div`
   width: 20%;
@@ -48,7 +59,28 @@ export const CardStackIcon = styled.img`
   height: 3vh;
 `;
 
-export const CardDate = styled.h4``;
+export const CardDate = styled.p`
+  @media screen and (max-width: 1919px) {
+    font-size: 0.8rem;
+    text-align: right;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+`;
+
+export const ButtonWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  @media screen and (max-width: 1919px) {
+    flex-direction: row;
+
+    & > * {
+      margin: 0 0.5rem;
+      font-size: 0.8rem;
+    }
+  }
+`;
 
 export const ModalOpenButton = styled.p`
   margin-top: 1vh;
@@ -61,7 +93,10 @@ export const ModalOpenButton = styled.p`
 export const DemoLink = styled.a`
   margin-top: 0.5vh;
   color: #777777;
-  float: right;
 `;
 
-export const CardDesc = styled.p``;
+export const CardDesc = styled.p`
+  @media screen and (max-width: 1919px) {
+    font-size: 0.8rem;
+  }
+`;

@@ -8,9 +8,10 @@ export const AboutContainer = styled.div`
 `;
 
 export const Profile = styled.img`
-  width: 25vw;
+  width: 40%;
   box-shadow: 5px 5px 5px #00000055;
   border-radius: 5px;
+  object-fit: cover;
 `;
 
 export const IntroductionWrapper = styled.div`

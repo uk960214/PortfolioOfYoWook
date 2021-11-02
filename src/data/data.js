@@ -32,7 +32,7 @@ import cal2 from "../images/prevImgs/cal2.PNG";
 
 export const sampleData = {
   0: {
-    title: "Campaign for 4 Days-a-Week",
+    title: "Campaign <4 Days-a-Week>",
     imgs: [camp1, camp2, camp3, camp4, camp5],
     stacks: [react, html, css, js],
     date: "July, 2021",

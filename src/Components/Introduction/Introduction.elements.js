@@ -10,4 +10,8 @@ export const IntroductionContent = styled.h1`
   font-size: 2.5rem;
   line-height: 1.5;
   text-shadow: 3px 3px 1px #00000033;
+
+  @media screen and (max-width: 1919px) {
+    font-size: 2rem;
+  }
 `;

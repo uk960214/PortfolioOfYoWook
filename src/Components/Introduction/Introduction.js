@@ -10,7 +10,7 @@ const Introduction = () => {
     <IntroductionSection>
       <IntroductionContent>
         Welcome! <br />
-        This is the history of the frontend developer, Yo Wook.
+        This is the history of Yo Wook, the frontend developer
       </IntroductionContent>
     </IntroductionSection>
   );
