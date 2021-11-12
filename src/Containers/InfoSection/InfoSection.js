@@ -23,6 +23,9 @@ const InfoSection = () => {
           >
             <img src={linkedIn} alt="linkedIn" />
           </SocialLink>
+          <SocialLink href="https://uk960214.github.io/" target="_blank">
+            Blog
+          </SocialLink>
         </SocialLinksWrapper>
         {/* <ResumeButton>Download Resume</ResumeButton> */}
       </InfoContainer>
