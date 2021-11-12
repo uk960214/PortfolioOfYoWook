@@ -39,7 +39,9 @@ export const ContentImageWrapper = styled.div`
 
 export const ContentImage = styled.img`
   width: 100%;
-  height: 100%;
+  max-height: 70vh;
+  /* height: 100%; */
+  object-fit: contain;
 `;
 
 export const ContentStackWrapper = styled.div`

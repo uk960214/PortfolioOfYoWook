@@ -29,6 +29,9 @@ import blog4 from "../images/prevImgs/blog4.PNG";
 
 import cal1 from "../images/prevImgs/cal1.PNG";
 import cal2 from "../images/prevImgs/cal2.PNG";
+import cal3 from "../images/prevImgs/cal3.PNG";
+import cal4 from "../images/prevImgs/cal4.PNG";
+import cal5 from "../images/prevImgs/cal5.PNG";
 
 export const sampleData = {
   0: {
@@ -74,12 +77,12 @@ export const sampleData = {
   },
   4: {
     title: "React Calendar Component",
-    imgs: [cal1, cal2],
+    imgs: [cal3, cal4, cal5, cal1, cal2],
     stacks: [react, html, css, js],
     date: "October, 2021",
-    demo: "https://github.com/uk960214/react-calendar-test",
+    demo: "https://uk960214.github.io/react-calendar-test/",
     source: "https://github.com/uk960214/react-calendar-test",
-    short: "Calendar Component Built from Scratch",
-    long: "This is a reusable calendar component that automatically calculates the dates of a month, including the dates of previous and next months to fill the gap of the beginning and the end of the calendar. Content can also be inserted to each date block.",
+    short: "Calendar Date and Time Picker",
+    long: "This is a reusable calendar component that automatically calculates the dates of a month, including the dates of previous and next months to fill the gap of the beginning and the end of the calendar. As an example for application, this calendar could be used as a date and time picker for reservations and event recorder. To add on to this, a horizontal slide bar with functions to set available time blocks for each weekday can be also found. As another example, content can also be inserted to each date block.",
   },
 };
