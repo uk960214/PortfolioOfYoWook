@@ -31,7 +31,7 @@ export const SocialLink = styled.a`
   }
 `;
 
-export const ResumeButton = styled.button`
+export const ResumeButton = styled.a`
   padding: 1vh 2vw;
 
   border-radius: 3px;
@@ -43,7 +43,8 @@ export const ResumeButton = styled.button`
 
   font-size: 1.2rem;
   font-family: "Raleway", sans-serif;
-
+  color: #5f5f5f;
+  text-decoration: none;
   &:hover {
     background-color: #ffffff99;
     transform: scale(1.05);

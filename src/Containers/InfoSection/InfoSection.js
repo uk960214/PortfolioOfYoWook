@@ -8,6 +8,7 @@ import {
 
 import github from "../../images/stacks/GithubLogo.png";
 import linkedIn from "../../images/LiLogo.png";
+import resume from "../../data/Yo Wook Kim(CV - English).pdf";
 
 const InfoSection = () => {
   return (
@@ -27,7 +28,9 @@ const InfoSection = () => {
             Blog
           </SocialLink>
         </SocialLinksWrapper>
-        {/* <ResumeButton>Download Resume</ResumeButton> */}
+        <ResumeButton href={resume} download>
+          Download CV
+        </ResumeButton>
       </InfoContainer>
     </>
   );
