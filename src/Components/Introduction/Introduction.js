@@ -9,7 +9,6 @@ const Introduction = () => {
   return (
     <IntroductionSection>
       <IntroductionContent>
-        Welcome! <br />
         This is the history of Yo Wook, the frontend developer
       </IntroductionContent>
     </IntroductionSection>
